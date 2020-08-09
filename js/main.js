@@ -25,7 +25,7 @@ console.log(issue);
 		// INDIVIDUAL ARTICLES
 		
 		var client = new HttpClient();
-		client.get('https://api.are.na/v2/channels/'+issue+'contents', function(response) {
+		client.get('https://api.are.na/v2/channels/'+issue+'/contents', function(response) {
 			console.log(response);
 			var obj = JSON.parse(response);
 			
