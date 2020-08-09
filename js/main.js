@@ -20,7 +20,7 @@ function getUrlVars() {
 
 var issue = getUrlVars()["issue"];
 console.log(issue);
-	if (issue != null){
+	if (issue != undefined){
 		//alert(issue);
 		// INDIVIDUAL ARTICLES
 		
