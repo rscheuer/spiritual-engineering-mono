@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'SFMono-Heavy';
+    src: url('../fonts/SFMono-Heavy.woff2') format('woff2'),
+        url('../fonts/SFMono-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFMono';
+    src: url('../fonts/SFMono-Regular.woff2') format('woff2'),
+        url('../fonts/SFMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFMono-Bold';
+    src: url('fonts/SFMono-Bold.woff2') format('woff2'),
+        url('fonts/SFMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+P {
+	font-family: SFMono;
+}
+
+.bold {
+	font-family: SFMono-Bold;
+}
+
+.header-section {
+	color: #161616;	
+	border-bottom: 2px solid #dbdbdb;
+}
+
+.header-text a {
+	padding: 5px;
+	color: inherit !important;
+}
+
+.header-text a:hover{
+	color: white !important;
+	background-color: #161616;
+}
+
+.issue-section {
+	height: 80vh;
+	color: #161616;
+}
+
+.issue-block a {
+	color: inherit !important;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+    display: block;
+
+}
+
+
+
+
+.issue-block {
+	border-left: 2px solid #dbdbdb;
+	height: 100%;
+	/*padding-left: 15px;*/
+	position: relative;
+	width: 100%;
+}
+
+
+.issue-block:hover {
+	background-color: #161616;
+	color: white;
+}
+
+
+.issue-number {
+	font-family: SFMono-Heavy;
+	font-size: 90px;
+	font-weight: bold;
+}
+
+.issue-subtitle {
+	position: absolute;
+	bottom: 10px;
+}
+
+.title-large {
+	font-family: SFMono-Bold;
+	font-size: 40px;
+	font-weight: bold;
+	color: #161616;
+	margin-top: -65px !important;
+	margin-bottom: 5px;
+}
+
+.blocks-block {
+	border-left: 2px solid #dbdbdb;
+	padding-left: 15px;
+	position: relative;
+	/*height: 20%;*/
+	color: #161616;
+	/*width: 200px;*/
+}
+
+.table {
+	text-align: left;
+}
+
+th {
+	font-family: SFMono-Bold;
+} 
+
+td {
+	font-family: SFMono;
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+  .issue-section {
+    	height: 40vh;
+  }
+  .issue-block {
+  	border-bottom: 2px solid #dbdbdb;
+  	margin-bottom: 20px;
+  }
+  
+  .sidebar {
+  	display: none !important;
+  	width: 0% !important;
+  }
+  
+    .blocks-block {
+  	border-bottom: 2px solid #dbdbdb;
+  	margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
