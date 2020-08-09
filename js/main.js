@@ -19,6 +19,7 @@ function getUrlVars() {
 }
 
 var issue = getUrlVars()["issue"];
+console.log(issue);
 
 //alert(issue);
 // INDIVIDUAL ARTICLES
