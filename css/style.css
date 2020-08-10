@@ -31,11 +31,14 @@
 
 
 P {
-	font-family: SFMono;
+	/*font-family: SFMono;*/
+	font-family: 'IBM Plex Mono';
 }
 
 .bold {
-	font-family: SFMono-Bold;
+	/*font-family: SFMono-Bold;*/
+	font-family: 'IBM Plex Mono';
+	font-weight: 500;
 }
 
 .header-section {
@@ -86,9 +89,10 @@ P {
 
 
 .issue-number {
-	font-family: SFMono-Heavy;
+	/*font-family: SFMono-Heavy;*/
+	font-family: Nunito;
 	font-size: 90px;
-	font-weight: bold;
+	font-weight: 900;
 }
 
 .issue-subtitle {
@@ -97,9 +101,10 @@ P {
 }
 
 .title-large {
-	font-family: SFMono-Bold;
+	/*font-family: SFMono-Bold;*/
+	font-family: Nunito;
 	font-size: 40px;
-	font-weight: bold;
+	font-weight: 800;
 	color: #161616;
 	margin-top: -65px !important;
 	margin-bottom: 5px;
@@ -119,11 +124,14 @@ P {
 }
 
 th {
-	font-family: SFMono-Bold;
+	/*font-family: SFMono-Bold;*/
+	font-family: 'IBM Plex Mono';
+	font-weight: 500;
 } 
 
 td {
-	font-family: SFMono;
+	/*font-family: SFMono;*/
+	font-family: 'IBM Plex Mono';
 }
 
 
